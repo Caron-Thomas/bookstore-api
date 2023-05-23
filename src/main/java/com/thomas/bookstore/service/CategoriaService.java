@@ -4,14 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.DeleteMapping;
 
 import com.thomas.bookstore.domain.Categoria;
 import com.thomas.bookstore.dtos.CategoriaDTO;
 import com.thomas.bookstore.repositories.CategoriaRepository;
-import com.thomas.bookstore.service.exceptions.DataIntegrityViolationException;
 import com.thomas.bookstore.service.exceptions.ObjectNotFoundException;
 
 @Service
